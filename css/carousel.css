@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.carousel{
+	width: 1190px;
+	height: 310px;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.carousel .imgbox ul{
+	list-style: none;
+}
+.carousel .imgbox ul li{
+	background-color: black;
+}
+.carousel .imgbox ul li.no0{width: 530px;height: 100px;position: absolute;left: -530px;top: 85px;z-index: 0;}
+.carousel .imgbox ul li.no1{width: 530px;height: 224px;position: absolute;left: 0;top: 23px;z-index: 1;}
+.carousel .imgbox ul li.no2{width: 640px;height: 270px;position: absolute;left: 275px;top: 0;z-index: 2;}
+.carousel .imgbox ul li.no3{width: 530px;height: 224px;position: absolute;left: 660px;top: 23px;z-index: 1;}
+.carousel .imgbox ul li.no4{width: 530px;height: 100px;position: absolute;left:1190px;top: 85px;z-index: 0;}
+.carousel .imgbox ul li.waiting{
+	display: none;
+}
+.carousel .imgbox ul li img{
+	width: 100%;
+	height: 100%;
+}
+.carousel .imgbox ul li.no1 img, .carousel .imgbox ul li.no3 img{
+	opacity: 0.6;
+}
+.carousel .btn .leftBtn{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background: url(img/0510000051AD63E96714C04A1400547A.png) no-repeat;
+	left: 7px;
+	top: 112px;
+	z-index: 3;
+	cursor: pointer;
+}
+.carousel .btn .rightBtn{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background: url(img/0510000051AD63F56714C04A1305CFEF.png) no-repeat;
+	right: 7px;
+	top: 112px;
+	z-index: 3;
+	cursor: pointer;
+}
+.carousel .navbox{
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	bottom: 15px;
+}
+.carousel .navbox ul{
+	list-style: none;
+	position: absolute;
+	left: 495px;
+}
+.carousel .navbox ul li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #c3c3c3;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.carousel .navbox ul li:hover{
+	background-color: #aaa;
+}
+.carousel .navbox ul li.selected{
+	background-color: #69aaec;
+}
