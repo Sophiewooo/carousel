@@ -7,12 +7,12 @@ var flag = false;
 var index = 0;
 var num = $(".carousel .imgbox ul li").length;
 var speed = 500;
-var timer = setInterval(rightBtnClick, 5000);
+var timer = setInterval(rightBtnClick, 3000);
 $(".carousel").mouseenter(function(){
 	clearInterval(timer);
 });
 $(".carousel").mouseleave(function(){
-	timer = setInterval(rightBtnClick, 5000);
+	timer = setInterval(rightBtnClick, 3000);
 });
 $(".rightBtn").click(rightBtnClick);
 function rightBtnClick(){

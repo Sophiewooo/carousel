@@ -34,7 +34,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	background: url(img/0510000051AD63E96714C04A1400547A.png) no-repeat;
+	background: url(../img/0510000051AD63E96714C04A1400547A.png) no-repeat;
 	left: 7px;
 	top: 112px;
 	z-index: 3;
@@ -44,7 +44,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	background: url(img/0510000051AD63F56714C04A1305CFEF.png) no-repeat;
+	background: url(../img/0510000051AD63F56714C04A1305CFEF.png) no-repeat;
 	right: 7px;
 	top: 112px;
 	z-index: 3;
